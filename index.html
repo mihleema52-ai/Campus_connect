@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Connect - Data-Free Info for Students</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    
+    body { background: #f5f7ff; color: #1a1a1a; line-height: 1.6; }
+    
+    header {
+      background: linear-gradient(135deg, #4F46E5, #7C3AED);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+    .btn {
+      display: inline-block;
+      background: white;
+      color: #4F46E5;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+    .btn:hover { transform: translateY(-2px); }
+
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    h2 { text-align: center; margin-bottom: 30px; color: #4F46E5; }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .card h3 { color: #7C3AED; margin-bottom: 10px; }
+
+    .problem {
+      background: #EEF2FF;
+      border-radius: 12px;
+      padding: 30px;
+    }
+    .problem ul { list-style: none; margin-top: 15px; }
+    .problem li { margin: 8px 0; }
+
+    footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>Campus Connect</h1>
+    <p>Data-Free Announcements, Timetable & Marketplace for 2026 Students</p>
+    <a href="#features" class="btn">See How It Works</a>
+  </header>
+
+  <!-- PROBLEM -->
+  <section>
+    <h2>The Problem</h2>
+    <div class="problem">
+      <p>Students miss important campus info because apps use too much data or cost money.</p>
+      <ul>
+        <li>❌ <b>WhatsApp & Teams:</b> High data consumption</li>
+        <li>❌ <b>SMS:</b> R0.50 per text = too expensive</li>
+        <li>❌ <b>Moodle:</b> Heavy and slow on mobile</li>
+      </ul>
+      <p style="margin-top:15px;"><b>Solution:</b> Campus Connect is free, light, and built only for campus.</p>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <h2>How It Works</h2>
+    <div class="features">
+      <div class="card">
+        <h3>📢 Announcements</h3>
+        <p>Get SRC updates and assignment reminders instantly. No data needed.</p>
+      </div>
+      <div class="card">
+        <h3>📅 Timetable</h3>
+        <p>Check your classes for today with 1 click. Works offline.</p>
+      </div>
+      <div class="card">
+        <h3>🛒 Marketplace</h3>
+        <p>Buy, sell, and swap textbooks and items with other students.</p>
+      </div>
+      <div class="card">
+        <h3>⭐ Premium</h3>
+        <p>R50/month. Unlock extra features. 10% discount for 6+ months.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOW -->
+  <section>
+    <h2>Simple 3-Step Login</h2>
+    <p style="text-align:center;">1. Enter 9-digit Student ID → 2. Access Dashboard → 3. Get What You Need</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Join the Waitlist</h2>
+    <p style="text-align:center;">Phase 1 Complete. Building Phase 2 now.</p>
+    <p style="text-align:center; margin-top:15px;">
+      <a href="mailto:hello@campusconnect.co.za" class="btn" style="background:#4F46E5; color:white;">Contact Us</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Campus Connect. Built for Students, by Students.</p>
+  </footer>
+
+</body>
+  </html>
